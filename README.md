@@ -1,0 +1,44 @@
+## Larabrezired
+
+O [larabrezired](https://github.com/users/felipe-silveira-dev/projects/2/views/1) é uma base para novos projetos Laravel, com configurações e recursos pré-configurados para facilitar o desenvolvimento.
+
+### Recomendações
+
+ [Git flow](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
+
+### Configurações incluídas
+
+- [x] Dark mode laravel 
+- [x] [Breeze](https://github.com/laravel/breeze)
+- [x] [Pest](https://pestphp.com/docs/filtering-tests) with test parallel
+- [x] [Git Hooks](https://git-scm.com/docs/githooks) with [Husky Js](https://typicode.github.io/husky/#/) - commit msg/pre commit
+- [x] [Laravel Pint](https://laravel.com/docs/10.x/pint)
+- [x] [Larastan](https://github.com/nunomaduro/larastan)
+- [x] Git actions
+
+### Como usar?
+
+```
+git clone https://github.com/felipe-silveira-dev/larabrezired.git seu-novo-projeto
+
+cd seu-novo-projeto
+
+composer install
+
+cp .env.example .env
+
+php artisan key:generate
+
+npm install 
+
+Se você não estiver utilizando o valet necessário usar os comandos
+npm run dev
+php artisan serve
+
+```
+
+
+ 
+ 
+### Contribuindo
+Este projeto é um trabalho em andamento e está aberto a contribuições. Sinta-se à vontade para enviar pull requests com correções, recursos adicionais ou melhorias de documentação.
