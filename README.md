@@ -14,30 +14,28 @@ O [larabrezired](https://github.com/users/felipe-silveira-dev/projects/2/views/1
 - [x] [Git Hooks](https://git-scm.com/docs/githooks) with [Husky Js](https://typicode.github.io/husky/#/) - commit msg/pre commit
 - [x] [Laravel Pint](https://laravel.com/docs/10.x/pint)
 - [x] [Larastan](https://github.com/nunomaduro/larastan)
-- [x] Git actions
+- [x] [Git Actions](https://docs.github.com/pt/actions)
 
 ### Como usar?
 
 ```
-git clone https://github.com/felipe-silveira-dev/larabrezired.git seu-novo-projeto
+git clone https://github.com/felipe-silveira-dev/larabrezired.git seu-novo-projeto;
 
-cd seu-novo-projeto
+cd seu-novo-projeto;
 
-composer install
+composer install;
 
-cp .env.example .env
+cp .env.example .env;
 
-php artisan key:generate
+php artisan key:generate;
 
-npm install 
+npm install;
 
-Se você não estiver utilizando o valet necessário usar os comandos
-npm run dev
-php artisan serve
+npm run dev;
+
+php artisan serve;
 
 ```
-
-
  
  
 ### Contribuindo
