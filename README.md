@@ -8,7 +8,7 @@ O [larabrezired](https://github.com/users/felipe-silveira-dev/projects/2/views/1
 
 ### Configurações incluídas
 
-- [x] Dark mode laravel 
+- [x] [Dark mode laravel](https://laravel.com/docs/10.x/starter-kits#dark-mode)
 - [x] [Breeze](https://github.com/laravel/breeze)
 - [x] [Pest](https://pestphp.com/docs/filtering-tests) with test parallel
 - [x] [Git Hooks](https://git-scm.com/docs/githooks) with [Husky Js](https://typicode.github.io/husky/#/) - commit msg/pre commit
