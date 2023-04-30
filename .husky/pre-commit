@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+./vendor/bin/phpstan
+if [ $? -ne 0 ]; then
+    echo "Ocorreu um erro no PHPSTAN.";
+    exit 1;
+fi;
+
+php artisan test --parallel
+if [ $? -ne 0 ]; then
+    echo "Deu ruim no teste.";
+    exit 1;
+fi;
+
+# formatar cada arquivo alterado usando laravel pint
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep ".php\{0,1\}$") || true
+
+for FILE in $STAGED_FILES
+do
+    .vendor/bin/pint "${FILE}" > /dev/null >&1;
+    git add "${FILE}"
+done;
+
+exit 0;
