@@ -14,6 +14,7 @@ O [larabrezired](https://github.com/users/felipe-silveira-dev/projects/2/views/1
 - [x] [Git Hooks](https://git-scm.com/docs/githooks) with [Husky Js](https://typicode.github.io/husky/#/) - commit msg/pre commit
 - [x] [Laravel Pint](https://laravel.com/docs/10.x/pint)
 - [x] [Larastan](https://github.com/nunomaduro/larastan)
+- [x] Debugbar
 - [x] [Git Actions](https://docs.github.com/pt/actions)
 
 ### Como usar?
