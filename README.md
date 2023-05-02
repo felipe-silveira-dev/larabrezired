@@ -10,8 +10,8 @@ O [larabrezired](https://github.com/users/felipe-silveira-dev/projects/2/views/1
 
 - [x] [Dark mode laravel](https://laravel.com/docs/10.x/starter-kits#dark-mode)
 - [x] [Breeze](https://github.com/laravel/breeze)
-- [x] [Livewire] (https://laravel-livewire.com/docs/2.x/quickstart)
-- [x] [Alpine JS] (https://alpinejs.dev/start-here)
+- [x] [Livewire](https://laravel-livewire.com/docs/2.x/quickstart)
+- [x] [Alpine JS](https://alpinejs.dev/start-here)
 - [x] [Pest](https://pestphp.com/docs/filtering-tests) with test parallel
 - [x] [Git Hooks](https://git-scm.com/docs/githooks) with [Husky Js](https://typicode.github.io/husky/#/) - commit msg/pre commit
 - [x] [Laravel Pint](https://laravel.com/docs/10.x/pint)
